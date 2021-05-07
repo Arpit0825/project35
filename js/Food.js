@@ -24,7 +24,7 @@ class Food {
     var x = 80,
       y = 150;
     imageMode(CENTER);
-    //image(this.image, 720, 220, 70, 70);
+    image(this.image, 440, 250, 70, 70);
     if (this.foodStock != 0) {
       for (var i = 0; i < this.foodStock; i++) {
         if (i % 10 == 0) {
